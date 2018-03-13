@@ -1,0 +1,61 @@
+﻿Build started 5/12/2017 12:14:43 PM.
+     1>Project "C:\Users\ruttan\Desktop\classENV\Projects\OgreBilliards\project0\project0.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\ruttan\Desktop\classENV\cegui\include\cegui-0\\" /IC:\Users\ruttan\Desktop\classENV\Build9\include\OIS /IC:\Users\ruttan\Desktop\classENV\Build9\include\OGRE\Overlay /IC:\Users\ruttan\Desktop\classENV\Build9\include\OGRE /IC:\Users\ruttan\Desktop\classENV\Build9\include /IC:\Users\ruttan\Desktop\classENV\boost_1_60_0 /I"C:\Users\ruttan\Desktop\classENV\bullet-2.82\src\/BulletCollision/CollisionShapes" /I"C:\Users\ruttan\Desktop\classENV\bullet-2.82\src\\" /I"C:\Users\ruttan\Desktop\classENV\bullet-2.82\src\/LinearMath" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\project0.cpp
+         project0.cpp
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(184): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(364): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(429): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(430): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(431): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(432): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(435): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(436): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(437): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(438): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(439): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(440): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(473): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(479): warning C4316: 'MyMotionState' : object allocated on the heap may not be aligned 16
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(482): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(525): warning C4244: 'argument' : conversion from 'double' to 'const btScalar', possible loss of data
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(527): warning C4316: 'MyMotionState' : object allocated on the heap may not be aligned 16
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(565): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(570): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(571): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(579): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(760): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(785): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(794): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(805): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(842): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(848): warning C4316: 'MyMotionState' : object allocated on the heap may not be aligned 16
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(851): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(897): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(903): warning C4316: 'MyMotionState' : object allocated on the heap may not be aligned 16
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(906): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(975): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>c:\users\ruttan\desktop\classenv\projects\ogrebilliards\project0.cpp(1035): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ruttan\Desktop\classENV\Projects\OgreBilliards\Debug\project0.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\ruttan\Desktop\classENV\Build9\lib\debug /LIBPATH:"C:\Users\ruttan\Desktop\classENV\boost_1_60_0\lib32-msvc-12.0" /LIBPATH:C:\Users\ruttan\Desktop\classENV\cegui\lib\ /LIBPATH:"C:\Users\ruttan\Desktop\classENV\bullet-2.82\lib\\" OgreMain_d.lib OgreOverlay_d.lib OIS_d.lib "CEGUIBase-0_d.lib" "CEGUIOgreRenderer-0_d.lib" OgreTerrain_d.lib BulletCollision_vs2010_debug.lib BulletDynamics_vs2010_debug.lib BulletSoftBody_vs2010_debug.lib ConvexDecomposition_vs2010_debug.lib BulletSoftBodyDX11Solvers_vs2010_debug.lib HACD_vs2010_debug.lib LinearMath_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ruttan\Desktop\classENV\Projects\OgreBilliards\Debug\project0.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ruttan\Desktop\classENV\Projects\OgreBilliards\Debug\project0.lib" /MACHINE:X86 Debug\DynamicLines.obj
+         Debug\DynamicRenderable.obj
+         Debug\project0.obj
+         project0.vcxproj -> C:\Users\ruttan\Desktop\classENV\Projects\OgreBilliards\Debug\project0.exe
+       PostBuildEvent:
+         copy /Y "C:\Users\ruttan\Desktop\classENV\Projects\OgreBilliards\Debug\project0.exe" "C:\Users\ruttan\Desktop\classENV\Build9\bin\debug
+         copy /Y  C:\Users\ruttan\Desktop\classENV\Projects\OgreBilliards\project0\"billiards.layout"  C:\Users\ruttan\Desktop\classENV\Build9\cegui-0\layouts\
+         copy /Y  C:\Users\ruttan\Desktop\classENV\Projects\OgreBilliards\project0\"table.material"  C:\Users\ruttan\Desktop\classENV\Build9\media\materials\scripts
+         copy /Y  C:\Users\ruttan\Desktop\classENV\Projects\OgreBilliards\project0\"table.jpg"  C:\Users\ruttan\Desktop\classENV\Build9\media\materials\textures
+         
+         
+         
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\ruttan\Desktop\classENV\Projects\OgreBilliards\project0\project0.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:21.97
