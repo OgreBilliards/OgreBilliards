@@ -64,7 +64,7 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(OGRE_LIBS9)\debug;$(BOOST_LIB);$(CEGUI_LIB);$(BULLET_LIBS);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>OgreMain_d.lib;OgreOverlay_d.lib;OIS_d.lib;CEGUIBase-0_d.lib;CEGUIOgreRenderer-0_d.lib;OgreTerrain_d.lib;$(BULLET_LIBS)BulletCollision_vs2010_debug.lib;$(BULLET_LIBS)BulletDynamics_vs2010_debug.lib;$(BULLET_LIBS)BulletSoftBody_vs2010_debug.lib;$(BULLET_LIBS)ConvexDecomposition_vs2010_debug.lib;$(BULLET_LIBS)BulletSoftBodyDX11Solvers_vs2010_debug.lib;$(BULLET_LIBS)HACD_vs2010_debug.lib;$(BULLET_LIBS)LinearMath_vs2010_debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>OgreMain_d.lib;OgreOverlay_d.lib;OIS_d.lib;CEGUIBase-0_d.lib;CEGUIOgreRenderer-0_d.lib;OgreTerrain_d.lib;BulletCollision_vs2010_debug.lib;BulletDynamics_vs2010_debug.lib;BulletSoftBody_vs2010_debug.lib;ConvexDecomposition_vs2010_debug.lib;BulletSoftBodyDX11Solvers_vs2010_debug.lib;HACD_vs2010_debug.lib;LinearMath_vs2010_debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy /Y "$(OutDir)$(TargetFileName)" "$(PROJECT_BUILDS)
