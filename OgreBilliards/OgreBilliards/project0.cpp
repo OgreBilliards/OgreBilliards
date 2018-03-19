@@ -1022,13 +1022,24 @@ void BasicApp::destroyCollided()
 					turn->setText("Game Over Yellow Wins!");
 					gameOver = true;
 				}
-				else //not all players balls are in yet
+				else if (redTurn && yellowcount != 0)//not all players balls are in yet yellow hit 8 ball in yellow loses
 				{
 					std::swap(sphereBodies[i], sphereBodies.back());
 					destroyObject(sphereBodies.back());
 					sphereBodies.pop_back();
 					sphereBodies.shrink_to_fit();
-					createBall(btVector3(0,0,0), .25f, btVector3(.01, .01, .01), "4");
+					turn->setText("Game Over Red Wins!");
+					gameOver = true;
+					//createBall(btVector3(0,0,0), .25f, btVector3(.01, .01, .01), "4");
+				}
+				else if (yellowTurn && redcount != 0)//not all players balls are in yet red hit 8 ball in red loses
+				{
+					std::swap(sphereBodies[i], sphereBodies.back());
+					destroyObject(sphereBodies.back());
+					sphereBodies.pop_back();
+					sphereBodies.shrink_to_fit();
+					turn->setText("Game Over Yellow Wins!");
+					gameOver = true;
 				}
 			}
 		}

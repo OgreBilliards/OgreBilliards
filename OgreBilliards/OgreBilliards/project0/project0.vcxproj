@@ -24,6 +24,7 @@
     <ProjectGuid>{E0FE0705-0CBE-4D56-B310-2A87C331E299}</ProjectGuid>
     <RootNamespace>OgreTut7</RootNamespace>
     <ProjectName>project0</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -49,18 +50,20 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(PROJECT_BUILDS9)\</OutDir>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(CEGUI_INCLUDE);$(OGRE_HOME)\include\OIS;$(OGRE_HOME)\include\OGRE\Overlay;$(OGRE_HOME)\include\OGRE;$(OGRE_HOME)\include;$(BOOST_DIR);$(BULLET_INCLUDE)/BulletCollision/CollisionShapes;$(BULLET_INCLUDE);$(BULLET_INCLUDE)/LinearMath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(CEGUI_INCLUDE);$(OGRE_HOME9)\include\OIS;$(OGRE_HOME9)\include\OGRE\Overlay;$(OGRE_HOME9)\include\OGRE;$(OGRE_HOME9)\include;$(BOOST_DIR);$(BULLET_INCLUDE)/BulletCollision/CollisionShapes;$(BULLET_INCLUDE);$(BULLET_INCLUDE)/LinearMath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ShowIncludes>false</ShowIncludes>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(OGRE_LIBS)\debug;$(BOOST_LIB);$(CEGUI_LIB);$(BULLET_LIBS);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(OGRE_LIBS9)\debug;$(BOOST_LIB);$(CEGUI_LIB);$(BULLET_LIBS);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>OgreMain_d.lib;OgreOverlay_d.lib;OIS_d.lib;CEGUIBase-0_d.lib;CEGUIOgreRenderer-0_d.lib;OgreTerrain_d.lib;BulletCollision_vs2010_debug.lib;BulletDynamics_vs2010_debug.lib;BulletSoftBody_vs2010_debug.lib;ConvexDecomposition_vs2010_debug.lib;BulletSoftBodyDX11Solvers_vs2010_debug.lib;HACD_vs2010_debug.lib;LinearMath_vs2010_debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
