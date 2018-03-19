@@ -1,7 +1,0 @@
-﻿  project0.cpp
-c:\users\ike_8\desktop\classenv10\cegui\include\cegui-0\string.h(33): fatal error C1083: Cannot open include file: 'CEGUI/Base.h': No such file or directory
-  DynamicRenderable.cpp
-c:\users\ike_8\desktop\classenv10\cegui\include\cegui-0\string.h(33): fatal error C1083: Cannot open include file: 'CEGUI/Base.h': No such file or directory
-  DynamicLines.cpp
-c:\users\ike_8\desktop\classenv10\cegui\include\cegui-0\string.h(33): fatal error C1083: Cannot open include file: 'CEGUI/Base.h': No such file or directory
-  Generating Code...
