@@ -51,7 +51,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(PROJECT_BUILDS9)</OutDir>
+    <OutDir>$(PROJECT_BUILDS9)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -60,11 +60,15 @@
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>$(CEGUI_INCLUDE);$(OGRE_HOME9)\include\OIS;$(OGRE_HOME9)\include\OGRE\Overlay;$(OGRE_HOME9)\include\OGRE;$(OGRE_HOME9)\include;$(BOOST_DIR);$(BULLET_INCLUDE)/BulletCollision/CollisionShapes;$(BULLET_INCLUDE);$(BULLET_INCLUDE)/LinearMath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ShowIncludes>false</ShowIncludes>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(OGRE_LIBS9)\debug;$(BOOST_LIB);$(CEGUI_LIB);$(BULLET_LIBS);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>OgreMain_d.lib;OgreOverlay_d.lib;OIS_d.lib;CEGUIBase-0_d.lib;CEGUIOgreRenderer-0_d.lib;OgreTerrain_d.lib;BulletCollision_vs2010_debug.lib;BulletDynamics_vs2010_debug.lib;BulletSoftBody_vs2010_debug.lib;ConvexDecomposition_vs2010_debug.lib;BulletSoftBodyDX11Solvers_vs2010_debug.lib;HACD_vs2010_debug.lib;LinearMath_vs2010_debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
     </Link>
     <PostBuildEvent>
       <Command>copy /Y "$(OutDir)$(TargetFileName)" "$(PROJECT_BUILDS)

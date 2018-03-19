@@ -1,2 +1,6 @@
-﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-LINK : fatal error LNK1104: cannot open file 'BulletSoftBodyDX11Solvers_vs2010_debug.lib'
+﻿  project0.vcxproj -> C:\Users\ike_8\Desktop\classENV10\Build9\bin\debug\project0.exe
+  project0.vcxproj -> C:\Users\ike_8\Desktop\classENV10\Build9\bin\debug\project0.pdb (Full PDB)
+          0 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.

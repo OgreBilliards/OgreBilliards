@@ -128,8 +128,8 @@ void DynamicLines::getWorldTransforms(Matrix4 *xform) const
 // return identity matrix to prevent parent transforms
 *xform = Matrix4::IDENTITY;
 }
-*/
-/*
+
+
 const Quaternion &DynamicLines::getWorldOrientation(void) const
 {
 return Quaternion::IDENTITY;
