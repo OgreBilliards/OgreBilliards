@@ -71,13 +71,8 @@
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
     </Link>
     <PostBuildEvent>
-      <Command>copy /Y "$(OutDir)$(TargetFileName)" "$(PROJECT_BUILDS)
-copy /Y  $(ProjectDir)"billiards.layout"  $(PROJECT_HOME)\Build9\cegui-0\layouts\
-copy /Y  $(ProjectDir)"table.material"  $(PROJECT_HOME)\Build9\media\materials\scripts
-copy /Y  $(ProjectDir)"table.jpg"  $(PROJECT_HOME)\Build9\media\materials\textures
-
-
-</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
